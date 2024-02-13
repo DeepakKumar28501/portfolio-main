@@ -480,194 +480,36 @@ const projects = {
   data: [
     {
       id: "project-0",
-      name: "Crafty Commerce",
-      url: "https://crafty-commerce.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/crafty-commerce",
-      description:
-        "Crafty Commerce is a full stack e-commerce web application that allows you to purchase different categories of product online. You can apply filters accordingly and find your favourite products in crafty commerce. You can pay with debit/credit cards and in just few click your product will be delivered.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos:react",
-        },
-        {
-          name: "Redux",
-          iconifyClass: "logos:redux",
-        },
-        {
-          name: "Express",
-          iconifyClass: "simple-icons:express",
-        },
-        {
-          name: "Nodejs",
-          iconifyClass: "logos:nodejs",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "vscode-icons:file-type-mongo",
-        },
-        {
-          name: "Stripe",
-          iconifyClass: "logos:stripe",
-        },
-        {
-          name: "Tailwind",
-          iconifyClass: "vscode-icons:file-type-tailwind",
-        },
-        {
-          name: "Cloudinary",
-          iconifyClass: "logos:cloudinary-icon",
-        },
-        {
-          name: "Framer Motion",
-          iconifyClass: "logos:framer",
-        },
-      ],
-    },
-    {
-      id: "project-1",
-      name: "Tikkaway",
-      url: "https://restaurant-app-bceb0.web.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/tikkaway",
-      description:
-        "Tikkaway is a full stack restaurant web application that allows you to order food online. It has wide variety of categories on the menu like Chicken, Curry, Rice, Fish, Fruits, Icecreams, Soft Drinks etc.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos:react",
-        },
-        {
-          name: "Redux",
-          iconifyClass: "logos:redux",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos:firebase",
-        },
-        {
-          name: "Tailwind",
-          iconifyClass: "vscode-icons:file-type-tailwind",
-        },
-        {
-          name: "Framer Motion",
-          iconifyClass: "logos:framer",
-        },
-      ],
-    },
-    {
-      id: "project-2",
-      name: "MEAN Agency",
+      name: "Food Court Management",
       url: "",
-      repoUrl: "https://github.com/sumit-sharma-02/mean-agency",
+      repoUrl: "https://github.com/DeepakKumar28501/portfolio-main/",
       description:
-        "Mean Agency is a full stack service provider web application that allows you to provide services to other companies.",
+        "DSD CAFE . Here Food Court owner can add brand or category And add stock of that product and can add product and generate bill with customer information.",
       languages: [
         {
-          name: "Angular",
-          iconifyClass: "logos:angular-icon",
+          name: "HTML",
+          iconifyClass: "logos:html",
         },
         {
-          name: "Express",
-          iconifyClass: "simple-icons:express",
-        },
-        {
-          name: "Nodejs",
-          iconifyClass: "logos:nodejs",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "vscode-icons:file-type-mongo",
+          name: "CSS",
+          iconifyClass: "logos:css",
         },
         {
           name: "Bootstrap",
-          iconifyClass: "logos:bootstrap",
+          iconifyClass: "",
         },
         {
-          name: "Handlebars",
-          iconifyClass: "vscode-icons:file-type-handlebars",
+          name: "PHP",
+          iconifyClass: "",
         },
+        {
+          name: "MySql",
+          iconifyClass: "",
+        },
+        
       ],
     },
-    {
-      id: "project-3",
-      name: "Countdown Timer",
-      url: "https://countdown-timer-sumit-sharma-02.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/countdown-timer",
-      description: "A Simple React App for countdown to new year using hooks.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "project-4",
-      name: "Portfolio",
-      url: "",
-      repoUrl: "https://github.com/sumit-sharma-02/sumit-portfolio",
-      description: "You are watching it right now 😉.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "React Reveal",
-          iconifyClass: "simple-icons:scrollreveal",
-        },
-        {
-          name: "Styled Components",
-          iconifyClass: "vscode-icons:file-type-styled",
-        },
-      ],
-    },
-    {
-      id: "project-5",
-      name: "SpaceX Capsules",
-      url: "https://spacex-capsules.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/spacex-capsules",
-      description:
-        "A React application which shows you the filtered spaceX capsules data.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos:react",
-        },
-        {
-          name: "Redux",
-          iconifyClass: "logos:redux",
-        },
-        {
-          name: "Tailwind",
-          iconifyClass: "vscode-icons:file-type-tailwind",
-        },
-      ],
-    },
+    
   ],
 };
 

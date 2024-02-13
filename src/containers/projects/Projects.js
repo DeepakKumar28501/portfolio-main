@@ -13,9 +13,9 @@ export default function Projects() {
           return <ProjectCard repo={v} key={"project-card-" + i} />;
         })}
       </div>
-      <a className="resume-btn" href="https://github.com/sumit-sharma-02/">
+      {/* <a className="resume-btn" href="https://github.com/DeepakKumar28501/">
         More Projects (Github)
-      </a>
+      </a> */}
     </div>
   );
 }
