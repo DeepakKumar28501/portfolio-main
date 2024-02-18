@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
-import { CursorProvider } from "react-cursor-custom";
+
 import { settings } from "./portfolio";
 import { TooltipProvider } from "react-tooltip";
 import Main from "./containers/Main";
@@ -19,15 +19,11 @@ function App() {
         <GlobalStyles />
         <div>
           {useCursor ? (
-            <CursorProvider
-              color={themes[theme].secondaryText}
-              ringSize={75}
-              transitionTime={10}
-            >
+           
               <TooltipProvider>
                 <Main theme={themes[theme]} setTheme={setTheme} />
               </TooltipProvider>
-             </CursorProvider>
+           
           ) : (
             <Main theme={themes[theme]} setTheme={setTheme} />
           )}
